@@ -1,0 +1,22 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  align-items: center;
+  width: 340px;
+}
+
+ul li {
+  cursor: pointer;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  color: #000;
+}
