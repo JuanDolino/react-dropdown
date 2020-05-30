@@ -15,6 +15,6 @@ The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
 
-### `yarn start`
+### `yarn`
 
 Use this command to install the nedded packages to run the app.
