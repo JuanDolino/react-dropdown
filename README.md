@@ -1,6 +1,6 @@
 # react-dropdown
 
-A simple dropdown example
+A simple dropdown example.
 
 ## Available Scripts
 
@@ -15,6 +15,6 @@ The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
 
-### ´yarn´
+### `yarn start`
 
 Use this command to install the nedded packages to run the app.
