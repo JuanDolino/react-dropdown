@@ -14,9 +14,44 @@ ul {
 }
 
 ul li {
-  cursor: pointer;
+  cursor: default;
   padding: 5px;
+  color: #7d8597;
+}
+
+ul + ul {
+  position: absolute;
+  background-color: #000;
+  color: #fff;
+}
+
+.dropdown {
+  transition: 0.20s;
+  width: 175px;
+  height: 95px;
+  position: absolute;
   display: flex;
-  align-items: center;
-  color: #000;
+  flex-direction: column;
+  background-color: #fff;
+  box-shadow: 3px 3px 20px 0px #ccc;
+  border: 0;
+  padding: 10px;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.dropdown .row p {
+  color: #7d8597;
+  line-height: 25px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.dropdown .row {
+  flex: 1;
+}
+
+.show-dropdown {
+  visibility: visible;
+  opacity: 1;
 }
