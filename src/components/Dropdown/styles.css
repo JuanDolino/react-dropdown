@@ -1,0 +1,36 @@
+.dropdown {
+  transition: 0.20s;
+  background-color: #fff;
+  box-shadow: 3px 3px 20px 0px #ccc;
+  border: 0;
+  padding: 10px;
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+}
+
+.dropdown .row p {
+  color: #7d8597;
+  line-height: 25px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.dropdown .row a {
+  text-decoration: none;
+  color: #7d8597;
+}
+
+.dropdown .row {
+  flex: 1;
+}
+
+.active-dropdown .dropdown,
+.ative-dropdown {
+  visibility: visible;
+  opacity: 1;
+}
+
+ul li div p {
+  pointer-events: none;
+}
